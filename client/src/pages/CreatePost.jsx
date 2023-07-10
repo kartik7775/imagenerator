@@ -31,7 +31,7 @@ const CreatePost = () => {
             try {
                 setGeneratingImg(true);
                 const response = await fetch(
-                    "https://imagenerator-zv1x.onrender.com/api/v1/dalle",
+                    "http://localhost:8080/api/v1/dalle",
                     {
                         method: "POST",
                         headers: {
@@ -65,7 +65,7 @@ const CreatePost = () => {
 
             try {
                 const response = await fetch(
-                    "https://imagenerator-zv1x.onrender.com/api/v1/post",
+                    "http://localhost:8080/api/v1/post",
                     {
                         method: "POST",
                         headers: {
