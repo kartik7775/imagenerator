@@ -24,7 +24,7 @@ app.get("/", async (req, res) => {
 const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
-    app.listen(render, () => console.log("Server started on port https://imagenerator-zv1x.onrender.com"));
+    app.listen(render, () => console.log("Server started on port https://imagenerator-cyuk.onrender.com"));
   } catch (error) {
     console.log(error);
   }
