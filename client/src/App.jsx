@@ -8,7 +8,7 @@ const App = () => {
       <header className="w-full flex justify-between sm:justify-around bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4">
         <Link to="/">
           <div className="w-[40px] flex items-center text-2xl">
-          <img src={icon} width="100px" height='100px' alt="icon" />
+          <img src={icon} alt="icon" />
           <h1>imagenerator</h1>
           </div>
         </Link>
