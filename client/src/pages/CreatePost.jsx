@@ -88,7 +88,7 @@ const CreatePost = () => {
     };
 
     return (
-        <section className="flex flex-col justify-center items-center max-w-7xl mx-auto">
+        <section className="max-w-7xl mx-auto">
             <div>
                 <h1 className="font-extrabold text-[#222328] text-[32px]">
                     Create
